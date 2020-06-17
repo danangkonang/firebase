@@ -10,8 +10,8 @@ import Maps from './Maps'
 const App =()=>{
     const [state,setState]=useState({
         timestamp:null,
-        longitude:null,
-        latitude:null,
+        longitude:0,
+        latitude:0,
         height:100,
         show:true,
     })

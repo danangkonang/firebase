@@ -12,8 +12,8 @@ const App =(props)=>{
             region={{
                latitude: props.latitude,
                longitude: props.longitude,
-               latitudeDelta: 0.015,
-               longitudeDelta: 0.0121,
+               latitudeDelta: 0.01,
+               longitudeDelta: 0.0001,
             }}>
             <Marker
                draggable

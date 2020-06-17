@@ -8,10 +8,11 @@ const App =()=>{
         fmcService.register(onRegister, onNotification, onOpenNotification)
         localNotificationService.configure(onOpenNotification)
         function onRegister(token){
-           console.log(token)
+           console.log("[ini token]",token)
         }
         function onNotification(notify){
-           console.log(notify)
+           console.log("disini notif nya",notify)
+         //   alert("testing")
            const options = {
               soundName : 'default',
               playSound : true
